@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head> 
+        <meta charset="utf-8" />
+
+        <title>Login</title>
+        <link href="assets/css/h.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+        <div id="container">
+            <!-- zone de connexion -->
+            
+            <form action="/register" method="POST">
+           
+                <h1>Inscription</h1>
+                
+                <label><b>Nom d'utilisateur</b></label>
+                <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required><br><br>
+
+<label><b>Nom complet</b></label>
+                <input type="text" placeholder="Entrer le nom complet d'utilisateur" name="fullname" required><br><br>
+
+
+
+                <label><b>Mot de passe</b></label>
+                <input type="password" placeholder="Entrer le mot de passe" name="password" required><br><br>
+
+
+                <label><b>Confirmer mot de passe</b></label>
+                <input type="password" placeholder="Confirmer le mot de passe" name="confirm-password" required><br><br>
+
+                               <input type="submit" id='submit' value='REGISTER' >
+                            
+            </form>
+        </div>
+    </body>
+</html>
